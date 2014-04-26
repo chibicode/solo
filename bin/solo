@@ -4,8 +4,9 @@
 # help function for app description 
 function help () {
     echo "Solo-  A Jekyll theme that supports single-page websites only, but supports them well. Yes, it's responsive.."
-    echo "===========================================================================================================.."
-    echo "    solo init                  - creates a solo project";
+    echo "=================================================="
+    echo "    solo init                  - creates a solo project named solo";
+	echo "    solo init   <project-name> - creates a solo project of given <project-name>";
 }
 
 
@@ -19,12 +20,14 @@ case "$1" in
 		else
 			git clone https://github.com/chibicode/solo
 		fi
-		if ["$?" = "1"]
-			echo "Solo project created......................................................."
-			echo "==========================================================================="
-			echo "Go to http://solo.chibi.io/"
+		
+		if ["$?" = "0"];
+		then
+			echo "Solo project created..................."
+			echo "======================================="
+			echo "Go to http://solo.chibi.io/ for documentation"
 		else
-			echo "Some unexpected error occured"
+			echo "Some unexpected error occured.........."
 		fi
     ;;
     *)
