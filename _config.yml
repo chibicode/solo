@@ -1,5 +1,5 @@
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 
 title_tag_text: Solo, a Jekyll Theme
 h1_tag_text: Solo
