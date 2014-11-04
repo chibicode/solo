@@ -1,19 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title_tag_text }}</title>
-  <link href='//fonts.googleapis.com/css?family=Roboto:400,400italic,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/syntax.css">
-  <link rel="stylesheet" href="css/solo.css">
+
 {% include head.html %}
-</head>
+
 <body>
   <div class="container">
-    <h1><a href="./">{{ site.h1_tag_text }}</a></h1>
+    <h1><a href="./">{{ page.title }}</a></h1>
+    <p align="center">
+<form name="jump" class="center">
+<select name="menu" onchange="gotoPage(this)">
+<option value="#">Language</option>
+<option value="{{ site.baseurl}}/si/">Sinhala</option>
+<option value="{{ site.baseurl}}/en-us/">English</option>
+
+</select>
+
+</form>
+Last updated {{ site.time | date_to_long_string }}.
+</p>
+
+
     {{ content }}
   </div>
 {% include scripts.html %}

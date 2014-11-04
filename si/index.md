@@ -1,4 +1,8 @@
-
+---
+layout: default
+langauge: English
+title: නිදහස් ග්‍රැෆික් නිර්මාණ මෙවලම් 
+---
 This is just a collection of links to libre design software and resources. I build this page to keep track of my tools.
 Most of the links are connected to latest builds.
 
@@ -36,15 +40,7 @@ Last updated {{ site.time | date_to_long_string }}. You are invited to contribut
 
 ## Web Design
 
-
-
-
 ### Text Editors
-
-## Font Design
-
-*[FontForge](http://fontforge.org/): SVG Cleaner could help you to clean up your SVG files from unnecessary data. It has a lot of options for cleanup and 
-
 
 ## News and Blogs
 

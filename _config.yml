@@ -1,4 +1,4 @@
 title_tag_text: Libre Design Tools, Free tools for designers
 h1_tag_text: Libre Design Tools
-
+permalink: pretty
 exclude: ["Procfile", "Gruntfile.js", "README.md", "package.json", "CNAME", "node_modules"]
