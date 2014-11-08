@@ -3,4 +3,4 @@ h1_tag_text: Libre Design Tools
 permalink: pretty
 exclude: ["Procfile", "Gruntfile.js", "README.md", "package.json", "CNAME", "node_modules"]
 url: http://mooniak.github.io/libre-design-tools/
-baseurl: libre-design-tools
+baseurl: /libre-design-tools
