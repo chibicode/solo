@@ -80,4 +80,4 @@ Most of the links are connected to latest builds.
 
 ## Add more tools
 
-Help me to grow this list with descriptions and more tools :) Fork on GITHUB and send a pull rquest or file an issue.
+Help me to grow this list with descriptions and more tools :) Fork on [GITHUB] (https://github.com/mooniak/libre-design-tools) and send a pull rquest or file an issue.
