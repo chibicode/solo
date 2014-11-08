@@ -48,9 +48,10 @@ Most of the links are connected to latest builds.
 
 * [FontForge](http://fontforge.org/):
 * [BirdFont](http://BirdFont.org/):
+* [BirdFont](http://BirdFont.org/):
 
 
-### Collaboration
+## Collaboration
 
 * [SparkleShare](http://sparkleshare.org/)
 * [GitHub](http://sparkleshare.org/)
@@ -78,3 +79,5 @@ Most of the links are connected to latest builds.
 
 
 ## Add more tools
+
+Help me to grow this list with descriptions and more tools :) Fork on GITHUB and send a pull rquest or file an issue.
