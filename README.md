@@ -1,4 +1,4 @@
-# [Libre Graphics Tools](http://solo.chibi.io))
+# [Libre Graphics Tools](http://solo.chibi.io)
 
 This is just a collection of links to libre design software and resources. I build this page to keep track of my tools.
 
