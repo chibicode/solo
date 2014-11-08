@@ -70,4 +70,12 @@ Most of the links are connected to latest builds.
 * [Libre Graphics Magazine](http://libregraphicsmag.com/)
 
 
+### Resources
+
+* [Open Clipart](https://openclipart.org/) Openclipart is a community and collection of vector clip art that is free content
+
+* [Project Gutenberg](https://www.gutenberg.org)
+
+* [Open Font Library](http://openfontlibrary.org/)promotes your freedoms as it relates to the use of type. All the fonts that appear on this site come with the freedom to use, study, share and remix them. 
+
 ## Add more tools
