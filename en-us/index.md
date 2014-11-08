@@ -7,13 +7,7 @@ This is just a collection of links to libre design software and resources. I bui
 Most of the links are connected to latest builds.
 
 
-## Why Libre?
-
-*
-*
-
-
-
+## Graphic Design
 
 ### Vector Editors
 
@@ -56,26 +50,31 @@ Most of the links are connected to latest builds.
 * [BirdFont](http://BirdFont.org/):
 
 
-## Collaboration
+### Collaboration
 
 * [SparkleShare](http://sparkleshare.org/)
 * [GitHub](http://sparkleshare.org/)
 
-## News and Blogs
+## Resources
 
-### Blogs
+### Images
+
+* [Open Clipart](https://openclipart.org/) Openclipart is a community and collection of vector clip art that is free content
+
+* [Project Gutenberg](https://www.gutenberg.org)
+
+
+### Fonts
+
+* [Open Font Library](http://openfontlibrary.org/)promotes your freedoms as it relates to the use of type. All the fonts that appear on this site come with the freedom to use, study, share and remix them. 
+
+
+## Blogs
 
 * [Libre Graphics World](http://libregraphicsworld.org/)
 
 * [Libre Graphics Magazine](http://libregraphicsmag.com/)
 
 
-### Resources
-
-* [Open Clipart](https://openclipart.org/) Openclipart is a community and collection of vector clip art that is free content
-
-* [Project Gutenberg](https://www.gutenberg.org)
-
-* [Open Font Library](http://openfontlibrary.org/)promotes your freedoms as it relates to the use of type. All the fonts that appear on this site come with the freedom to use, study, share and remix them. 
 
 ## Add more tools
