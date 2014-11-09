@@ -47,6 +47,7 @@ Most of the links are connected to latest builds.
 ## Font Design
 
 * [FontForge](http://fontforge.org/):
+    - [Latest Mac builds] (http://fontforge.github.io/en-US/downloads/mac/)
 * [BirdFont](http://BirdFont.org/):
 * [BirdFont](http://BirdFont.org/):
 
