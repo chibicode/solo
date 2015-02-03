@@ -13,7 +13,7 @@ Most of the links are connected to latest builds.
 
 * [Inkscape](https://inkscape.org/en/): Inkscape is an open source vector graphics editor, with capabilities similar to Adobe Illustrator using the W3C standard Scalable Vector Graphics (SVG) file format.
 
-* [Latest OSx Builds](https://www.dropbox.com/sh/b7tyrnugif2ywqj/qpMx1ygywo)
+* [Latest OSx Builds](https://inkscape.org/en/gallery/5870/)
 
 
 
