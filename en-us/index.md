@@ -2,7 +2,9 @@
 layout: default
 langauge: English
 title: Libre Graphics Tools
+published: true
 ---
+
 This is just a collection of links to libre design software and resources. I build this page to keep track of my tools.
 Most of the links are connected to latest builds.
 
@@ -82,3 +84,19 @@ Most of the links are connected to latest builds.
 ## Add more tools
 
 Help me to grow this list with descriptions and more tools :) Fork on [GITHUB] (https://github.com/mooniak/libre-design-tools) and send a pull rquest or file an issue.
+
+## List of bleeding edge / latest Ubuntu PPA's 
+
+```
+sudo add-apt-repository ppa:fontforge/fontforge
+sudo apt-get update
+sudo apt-get install fontforge
+
+```
+```
+sudo add-apt-repository ppa:inkscape.dev/trunk
+sudo apt-get update
+sudo apt-get install inkscape
+```
+
+
