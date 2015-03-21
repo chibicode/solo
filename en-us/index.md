@@ -103,4 +103,7 @@ sudo add-apt-repository ppa:otto-kesselgulasch/gimp-edge
 sudo apt-get update
 sudo apt-get install gimp
 ```
-
+```
+sudo add-apt-repository ppa:scribus/ppa
+sudo apt-get update
+sudo apt-get install scribus
