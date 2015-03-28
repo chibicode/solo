@@ -91,17 +91,21 @@ Help me to grow this list with descriptions and more tools :) Fork on [GITHUB] (
 #Grphics Suit 
 
 ##FontForge
+
 ```
 sudo add-apt-repository ppa:fontforge/fontforge
 sudo apt-get update && sudo apt-get install fontforge
-
 ```
+
 ##Inkscape Trunk Builds
+
 ```
 sudo add-apt-repository ppa:inkscape.dev/trunk
 sudo apt-get update && sudo apt-get install inkscape-trunk
 ```
+
 ##GIMP Edge
+
 ```
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp-edge
 sudo apt-get update && sudo apt-get install gimp
