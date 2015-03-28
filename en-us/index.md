@@ -107,9 +107,11 @@ sudo apt-get update && sudo apt-get install fontforge
 ###Inkscape
 
 ####Satble
+
 ```
 sudo add-apt-repository ppa:inkscape.dev/stable
 sudo apt-get update && sudo apt-get install inkscape
+````
 
 ####Latest Trunk
 ```
