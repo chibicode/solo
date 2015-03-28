@@ -121,7 +121,6 @@ sudo apt-get update && sudo apt-get install inkscape-trunk
 ```
 
 
-```
 ###GIMP Edge
 
 ```
