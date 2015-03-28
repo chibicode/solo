@@ -5,13 +5,14 @@ title: Libre Graphics Tools
 published: true
 ---
 
-This is just a collection of links to libre design software and resources. I build this page to keep track of my tools.
-Most of the links are connected to latest builds.
+This is just a collection of links to libre design software and resources. I built this page to keep track of my tools, so by any means this is not complete guide or a recomendation of tools. 
+
+You are welcome to add any new tools and improve this page, fork on [GitHub](https://github.com/mooniak/libre-design-tools)
 
 
 ## Graphic Design
 
-### Vector Editors
+### Vector Tools
 
 * [Inkscape](https://inkscape.org/en/) is an open source vector graphics editor, with capabilities similar to Adobe Illustrator using the W3C standard Scalable Vector Graphics (SVG) file format.
 
@@ -103,8 +104,9 @@ sudo add-apt-repository ppa:fontforge/fontforge
 sudo apt-get update && sudo apt-get install fontforge
 ```
 
-###Inkscape Trunk Builds
+###Inkscape
 
+####Latest Trunk
 ```
 sudo add-apt-repository ppa:inkscape.dev/trunk
 ```
@@ -112,6 +114,11 @@ sudo add-apt-repository ppa:inkscape.dev/trunk
 sudo apt-get update && sudo apt-get install inkscape-trunk
 ```
 
+####Satble
+```
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo apt-get update && sudo apt-get install inkscape
+```
 ###GIMP Edge
 
 ```
