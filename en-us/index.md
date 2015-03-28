@@ -81,9 +81,6 @@ Most of the links are connected to latest builds.
 
 
 
-## Add more tools
-
-Help me to grow this list with descriptions and more tools :) Fork on [GITHUB] (https://github.com/mooniak/libre-design-tools) and send a pull rquest or file an issue.
 
 
 # For Ubuntu and GNU/Linux
@@ -142,3 +139,7 @@ sudo add-apt-repository ppa: svg-cleaner-team / svgcleaner
 ```
 sudo apt-get update && sudo apt-get install svgcleaner
 ```
+
+# Add more tools
+
+Help me to grow this list with descriptions and more tools :) Fork on [GITHUB] (https://github.com/mooniak/libre-design-tools) and send a pull rquest or file an issue.
