@@ -13,16 +13,12 @@ Most of the links are connected to latest builds.
 
 ### Vector Editors
 
-* [Inkscape](https://inkscape.org/en/): Inkscape is an open source vector graphics editor, with capabilities similar to Adobe Illustrator using the W3C standard Scalable Vector Graphics (SVG) file format.
+* [Inkscape](https://inkscape.org/en/) is an open source vector graphics editor, with capabilities similar to Adobe Illustrator using the W3C standard Scalable Vector Graphics (SVG) file format.
 
 
-
-
-
-* [SVG Cleaner](http://sourceforge.net/projects/svgcleaner/): SVG Cleaner could help you to clean up your SVG files from unnecessary data. It has a lot of options for cleanup and optimization, works in batch mode, provides threaded processing on the multicore processors and basically does two things. Read more at: (http://libregraphicsproduction.com/tool/svg-cleaner#sthash.vb1tf3rJ.dpuf)
+* [SVG Cleaner](http://sourceforge.net/projects/svgcleaner/): SVG Cleaner could help you to clean up your SVG files from unnecessary data. . Read more at: (http://libregraphicsproduction.com/tool/svg-cleaner#sthash.vb1tf3rJ.dpuf)
 
     - [Latest Builds](https://www.dropbox.com/sh/b7tyrnugif2ywqj/qpMx1ygywo)
-
 
 
 ### Raster Editors
@@ -59,7 +55,8 @@ Most of the links are connected to latest builds.
 * [SparkleShare](http://sparkleshare.org/)
 * [GitHub](http://sparkleshare.org/)
 
-## Resources
+
+## Libre Design Resources
 
 ### Images
 
@@ -78,8 +75,6 @@ Most of the links are connected to latest builds.
 * [Libre Graphics World](http://libregraphicsworld.org/)
 
 * [Libre Graphics Magazine](http://libregraphicsmag.com/)
-
-
 
 
 
