@@ -115,7 +115,6 @@ sudo apt-get update && sudo apt-get install inkscape
 ```
 sudo add-apt-repository ppa:inkscape.dev/trunk 
 ```
-</br>
 ```
 sudo apt-get update && sudo apt-get install inkscape-trunk
 ```
