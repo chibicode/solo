@@ -86,14 +86,15 @@ Most of the links are connected to latest builds.
 Help me to grow this list with descriptions and more tools :) Fork on [GITHUB] (https://github.com/mooniak/libre-design-tools) and send a pull rquest or file an issue.
 
 
-## For Ubuntu and GNU/Linux
+# For Ubuntu and GNU/Linux
 
-#Grphics Suit 
 
 ##FontForge
 
 ```
 sudo add-apt-repository ppa:fontforge/fontforge
+```
+```
 sudo apt-get update && sudo apt-get install fontforge
 ```
 
@@ -101,6 +102,8 @@ sudo apt-get update && sudo apt-get install fontforge
 
 ```
 sudo add-apt-repository ppa:inkscape.dev/trunk
+```
+```
 sudo apt-get update && sudo apt-get install inkscape-trunk
 ```
 
@@ -108,6 +111,8 @@ sudo apt-get update && sudo apt-get install inkscape-trunk
 
 ```
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp-edge
+```
+```
 sudo apt-get update && sudo apt-get install gimp
 ```
 
@@ -115,6 +120,8 @@ sudo apt-get update && sudo apt-get install gimp
 
 ```
 sudo add-apt-repository ppa:scribus/ppa
+```
+```
 sudo apt-get update && sudo apt-get install scribus
 ```
 
@@ -122,6 +129,8 @@ sudo apt-get update && sudo apt-get install scribus
 
 ```
 sudo add-apt-repository ppa:dimula73/krita
+```
+```
 sudo apt-get update && sudo sudo apt-get install krita-testing krita-testing-dbg 
 ```
 
@@ -129,5 +138,7 @@ sudo apt-get update && sudo sudo apt-get install krita-testing krita-testing-dbg
 
 ```
 sudo add-apt-repository ppa: svg-cleaner-team / svgcleaner
+```
+```
 sudo apt-get update && sudo apt-get install svgcleaner
 ```
