@@ -15,7 +15,7 @@ Most of the links are connected to latest builds.
 
 * [Inkscape](https://inkscape.org/en/): Inkscape is an open source vector graphics editor, with capabilities similar to Adobe Illustrator using the W3C standard Scalable Vector Graphics (SVG) file format.
 
-* [Latest OSx Builds](https://inkscape.org/en/gallery/5870/)
+
 
 
 
@@ -29,7 +29,7 @@ Most of the links are connected to latest builds.
 
 * [GIMP](http://gimp.org) - A Photoshop alternative, GIMP is the GNU Image Manipulation Program. It is a freely distributed piece of software for such tasks as photo retouching, image composition and image authoring. It works on many operating systems, in many languages
 
-    - [Latest Windows Builds](http://nightly.darkrefraction.com/gimp/)
+
 
 
 ### Page Layout
@@ -83,7 +83,20 @@ Most of the links are connected to latest builds.
 
 
 
-# For Ubuntu and GNU/Linux
+# Insatallation and Downloads
+
+##Mac OS
+
+    - [INKSCAPE : Latest Builds](https://inkscape.org/en/gallery/5870/)
+
+
+##Windows
+
+    - [GIMP - Latest Builds](http://nightly.darkrefraction.com/gimp/)
+
+
+
+##GNU/ Linux (PPA'a)
 
 
 ###FontForge
