@@ -83,12 +83,12 @@ You are welcome to add any new tools and improve this page, fork on [GitHub](htt
 
 ##Mac OS
 
-    - [INKSCAPE : Latest Builds](https://inkscape.org/en/gallery/5870/)
+* [INKSCAPE : Latest Builds](https://inkscape.org/en/gallery/5870/)
 
 
 ##Windows
 
-    - [GIMP - Latest Builds](http://nightly.darkrefraction.com/gimp/)
+* (http://nightly.darkrefraction.com/gimp/)
 
 
 
