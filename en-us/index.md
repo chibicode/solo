@@ -152,10 +152,20 @@ sudo apt-get update && sudo sudo apt-get install krita-testing krita-testing-dbg
 ###SVG Cleaner
 
 ```
-sudo add-apt-repository ppa: svg-cleaner-team / svgcleaner
+sudo add-apt-repository ppa:svg-cleaner-team / svgcleaner
 ```
 ```
 sudo apt-get update && sudo apt-get install svgcleaner
+```
+
+###Darktable
+
+
+```
+sudo add-apt-repository ppa:ppa:pmjdebruijn/darktable-release 
+```
+```
+sudo apt-get update && sudo apt-get install darktable
 ```
 
 ## Add more tools
