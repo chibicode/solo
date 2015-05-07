@@ -1,0 +1,101 @@
+<div class="grid grid-pad">
+
+
+    <div class="col-1-3 mobile-col-1-1">
+        <h1>Libre Graphics Tools Installer Scripts for Ubuntu</h1>
+        <a href='#' id='slideToggle2'><h2>HELP</h2></a>
+        <a href='https://github.com/mooniak/ubuntu-graphics-suite#how-to-add-new-ppas'><h2>ADD PPA'S&#8594;</h2></a>
+    </div> 
+            
+<br />
+
+<div style="display:none;" class="slideTogglebox2">
+<div class="col-1-2 mobile-col-1-1">
+	<h2>How To Use</h2>
+        <li>Mark the big gray button of Softwares you need to add install. </li>
+        <li>Hit the Download button.</li>
+        <li>Keep both files in the same folder.</li>
+        <li>Open Terminal</li>
+        <li>Go to the folder where you saved the downloaded files</li>
+        <span class="code_display"> cd Downloads</span>
+        <li>Run the shell script as root user.</li>
+        <span class="code_display"> sudo sh cleanstart.graphics.sh</span>
+
+</div>
+              
+	<div class="col-1-2 mobile-col-1-1">
+	<h2>Warnings :)</h2>
+        <li>Check the 'Updated on' date on each software listed. That is the date that we last checked the PPA to see if its still being updated.</li>
+        <li>This is a collection of ppa's that we have collected since we started using Ubuntu our studio. </li>
+        <li>There might be compatibility issues on some of the latest versions like Scribus. So Google around and/or visit the PPA page on Launchpad and find out wheather it works for you.</li>
+        <li>There are many different Libre softwares that do the same tasks.. And there are many PPA's with different packages. This is based on just our preference.</li>
+	</div>
+	</div>
+  
+  
+            
+            
+    </div>
+
+
+
+
+<div class="grid grid-pad">
+
+    {% for tag in site.tags %} {% assign t = tag | first %} {% assign posts = tag | last %} {% for post in posts %} {% if post.tags contains t %}
+    <div class="post">
+        <div class="col-1-3">
+
+            <div class="tile {{ post.background }} {{ post.catagory }}">
+
+                <input type="checkbox" id="{{ post.name }}" class="regular-radio" onchange="refreshFeatures()">
+                <label for="{{ post.name }}"></label>
+                <h2>{{ post.title }}</h2>
+                <div class="category">{{ post.category }}{{ post.tags }}&nbsp; </div>
+                <div class="category">{{ post.status }} | Updated {{ post.date | date: '%B %d, %Y' }}</div>
+
+
+
+                </h2> {{ post.content }}
+
+            </div>
+
+        </div>
+
+        {% endif %}</div> {% endfor %} {% endfor %}
+
+</div>
+<div class="grid grid-pad">
+    <div class="col-1-3 mobile-col-1-1 push-1-3">
+        <a id="exportxt" href="#">DOWNLOAD INSTALLER SCRIPTS&nbsp;&#8623;</a>
+        <div style="display:none;" id="editor" class="code_display"></div>
+
+ <br/><br/>
+	
+      
+ 
+	
+ 
+        
+    </div>
+    
+  
+ 
+
+
+ 
+<script type="text/javascript">
+ 
+
+$("#slideToggle").click(function () {
+   $('.slideTogglebox').slideToggle();
+});
+    $("#slideToggle2").click(function () {
+   $('.slideTogglebox2').slideToggle();
+});
+ 
+
+</script>
+ 
+    
+</div>

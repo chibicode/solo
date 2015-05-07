@@ -1,6 +1,19 @@
-title_tag_text: Libre Design Tools, Free tools for designers
-h1_tag_text: Libre Design Tools
 permalink: pretty
-exclude: ["Procfile", "Gruntfile.js", "README.md", "package.json", "CNAME", "node_modules"]
+safe: false
+lsi: false
+pygments: true
+ 
 url: http://mooniak.com/libre-design-tools/
 baseurl: libre-design-tools/
+
+# About/contact
+author:
+  name:              Pathum Egodawatta
+  url:               https://twitter.com/pathumego
+  email:             pathum@mooniak.com
+
+paginate: 10
+
+exclude:
+  - README.md
+

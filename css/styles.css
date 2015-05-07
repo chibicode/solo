@@ -1,0 +1,322 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+body {
+    font: 16px/1.5 'Karla', sans-serif;
+    margin: 2rem 0 5rem;
+    color: #333;
+}
+
+@media (min-width: 30rem) {
+    body {
+        margin-top: 5rem;
+    }
+}
+
+.sinhala {
+    font-family: 'Noto Sans Sinhala', serif;
+}
+
+.white_text_back {
+    background: #fff;
+    z-index: 1000;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.half {
+    width: 50%;
+}
+
+a {
+
+
+}
+    
+    text-decoration: none;
+}
+
+a:hover,a:focus {
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0 0 0.5rem -0.1rem
+    /* align left edge */
+    
+    ;
+    line-height: 1;
+    color: #111;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 30rem) {
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+h1 a {
+    color: inherit;
+}
+
+h2 {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+@media (min-width: 30rem) {
+    h2 {
+        margin-top: 0.5rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+p,
+ul,
+ol,
+dl,
+table,
+pre,
+blockquote {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul,
+ol {
+    padding-left: 1.5rem;
+}
+
+dd {
+    margin-left: 1.5rem;
+}
+
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding: .5rem 1rem;
+    border-left: .25rem solid #ccc;
+    color: #666;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+hr {
+    border: none;
+    margin: 1.5rem 0;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    top: -1px;
+}
+
+.container img,
+.container iframe {
+    max-width: 100%;
+}
+
+.container img {
+    margin: 0 auto;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: .25rem .5rem;
+    border: 1px solid #ccc;
+}
+
+pre,
+code {
+    font-family: inherit;
+    background-color: #eee;
+}
+
+pre {
+    padding: .5rem 1rem;
+    font-size: 0.8rem;
+}
+
+code {
+    padding: .1rem .25rem;
+}
+
+pre > code {
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+}
+/*tiles*/
+
+.tile {
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.tile:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    background: #eee;
+}
+
+a.tile_link {
+    text-decoration: none;
+}
+
+a.tile_link:hover {
+    text-decoration: none;
+}
+
+a.tile_link:focus {
+    text-decoration: none;
+}
+
+.tile img {
+    width: 100%;
+    margin:
+}
+
+.category {
+    color: #000;
+    padding: 0px;
+    text-transform: uppercase;
+    
+}
+
+.red {}
+
+.blue,
+blue h2 {}
+
+.yellow {}
+
+.green {}
+
+.code_display {
+    background: #000000;
+    color: #fff;
+    font-family: monospace;
+    overflow: auto;
+    width: auto;
+    border: solid gray;
+    border-width: .1em .1em .1em .8em;
+    padding: .2em .6em;
+}
+
+.fixed {
+    position: fixed;
+}
+
+/* DOWNLOAD BUTTON */
+
+a#exportxt {
+  color: white;
+  text-decoration: none;
+  background: #000;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+a#exportxt:hover {
+      background: #25dd64;
+}
+
+
+/* RADIO */
+
+.regular-radio {
+    display: none;
+}
+
+.regular-radio + label {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+
+.regular-radio:checked + label:after {
+    content: ' ';
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    position: absolute;
+    background: #62ea62;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-shadow: 0px;
+    left: 4px;
+    top: 4px;
+    font-size: 32px;
+}
+
+.regular-radio:checked + label {
+    background-color: #e9ecee;
+    color: #99a1a7;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1), inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.regular-radio + label:active,
+.regular-radio:checked + label:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+	.slideTogglebox{
+		float:left;
+		padding:8px;
+		margin:16px;
+        c
+	}
+	.clear{
+		clear:both;
+	}

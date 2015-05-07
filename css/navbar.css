@@ -1,0 +1,16 @@
+
+
+nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+a {
+  color: red; /* From http://clrs.cc */
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
