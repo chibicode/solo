@@ -1,13 +1,14 @@
 ---
 layout: post
 title: fontmatrix
-name: fontmatrix
-ppa: 
-status: Ubuntu Repositories
-install: fontmatrix
+status: No Active Development
+homepage: http://fontmatrix.be/
+gnu: visible
+mac: visible
+win: visible
 tags:
-    - utilities
+    - Utilities 
 catagory: design
-background: blue
 ---
 
+Fontmatrix is a free/libre font explorer for Linux, Windows and Mac. It’s for you. 
