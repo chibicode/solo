@@ -27,6 +27,10 @@ nav {
     z-index: 1;
 }
 
+.lang_chooser{
+float: left;
+}
+
 .half {
     width: 50%;
 }
@@ -184,6 +188,7 @@ pre > code {
     width: 100%;
     left: 0;
     padding: 0 1rem;
+    margin-top: 60px;
 }
 /*tiles*/
 
@@ -212,10 +217,6 @@ a.tile_link:focus {
     text-decoration: none;
 }
 
-.tile img {
-    width: 100%;
-    margin:
-}
 
 .category {
     color: #000;
@@ -320,3 +321,29 @@ a#exportxt:hover {
 	.clear{
 		clear:both;
 	}
+
+
+
+nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+    background: red;
+    width: 100%;
+}
+
+.os_icon{
+visibility: hidden;
+    width: 20px;
+    float: left;
+}
+
+.tool_icon{
+
+    width: 50px;
+    float: left;
+    -webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);
+filter: gray; filter: grayscale(100%);
+filter: url(desaturate.svg#greyscale);
+}
+

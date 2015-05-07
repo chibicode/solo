@@ -1,10 +1,7 @@
-permalink: pretty
 safe: false
 lsi: false
-pygments: true
- 
-url: http://mooniak.com/libre-design-tools/
-baseurl: libre-design-tools/
+permalinks : pretty
+baseurl:               /libre-design-tools
 
 # About/contact
 author:
@@ -12,8 +9,10 @@ author:
   url:               https://twitter.com/pathumego
   email:             pathum@mooniak.com
 
+# Custom vars
+version:             0.0.1
+
 paginate: 10
 
 exclude:
   - README.md
-

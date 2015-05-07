@@ -1,25 +1,65 @@
----
-layout: default
----
+ {% include html_start.html %}
+ {% include navbar.html %}
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
-</div>
+<div class="container">
+    <div class="grid grid-pad">
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
+        <div class="post">
+            <h1><img class="tool_icon"src="{{ site.baseurl }}/images/{{ page.icon }}">{{ page.title }}</h1>
+            <div class="category">{{ page.category }}{{ page.tags }} </div>
+            <div class="category">{{ page.os }} &nbsp;<a href="{{ page.homepage }}">HomePage</a></div>
+            
+  <div class="category">
+                <img class="os_icon" style="visibility:{{ page.gnu }};" src="{{ site.baseurl }}/images/gnu.svg">
+                <img class="os_icon" style="visibility:{{ page.mac }};" src="{{ site.baseurl }}/images/mac.svg"> 
+                <img class="os_icon" style="visibility:{{ page.win }};" src="{{ site.baseurl }}/images/win.svg">
+                </div>
+                        
+
+               <div class="grid grid-pad">
+            
+             {{ content }}
+                   </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="grid grid-pad">
+
+        <div class="related">
+            <h2>Related Tools</h2>
+            <ul class="related-posts">
+                {% for post in site.related_posts limit:3 %}
+                <div class="col-1-3 mobile-col-1-1">
+
+                    
+                        <h3>
           <a href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
+         
+              
+              
           </a>
         </h3>
-      </li>
-    {% endfor %}
-  </ul>
+                    
+                </div>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+
 </div>
+</div>
+
+</body>
+
+</html>

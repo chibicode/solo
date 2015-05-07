@@ -1,5 +1,17 @@
-<link rel="stylesheet" href="../css/navbar.css">
-<nav>
+<div class="grid grid-pad">
 
-     <img id='logo' src="../images/logo.svg">
+<nav>
+<a href="{{ site.baseurl}}">HOME</a>
+
+<form name="jump" class="lang_chooser">
+<select name="menu" onchange="gotoPage(this)">
+<option value="#">Language</option>
+<option value="{{ site.baseurl}}/si/">Sinhala</option>
+<option value="{{ site.baseurl}}/en-us/">English</option>
+
+</select>
+
+</form>
+    
 </nav>
+</div>

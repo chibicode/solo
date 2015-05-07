@@ -6,7 +6,7 @@ ppa:
 status: Ubuntu Repositories
 install: fontmatrix
 tags:
-    - font browser
+    - utilities
 catagory: design
 background: blue
 ---

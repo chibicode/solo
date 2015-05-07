@@ -1,4 +1,3 @@
-
 /*
   Simple Grid
   Learn More - http://dallasbass.com/simple-grid-a-lightweight-responsive-css-grid/
@@ -24,7 +23,7 @@ body {
 
 .grid {
 	width: 100%;
-	max-width: 100%;
+	max-width: 1140px;
 	min-width: 755px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -37,11 +36,9 @@ body {
 }
 
 .grid-pad {
-    Overflow:visible;
 	padding-top: 20px;
 	padding-left: 20px; /* grid-space to left */
-	padding-right: 0px; /* grid-space to right: (grid-space-left - column-space) e.g. 
-    20px-20px=0 */
+	padding-right: 0px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
 }
 
 .push-right {
