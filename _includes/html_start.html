@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/simplegrid.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="{{ site.baseurl }}/js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="{{ site.baseurl }}/js/gen_list.js" type="text/javascript" charset="utf-8"></script>
     <script src="{{ site.baseurl }}/js/sss.min.js"></script>
     <script src="{{ site.baseurl }}/js/jquery.lightbox_me.js" type="text/javascript" charset="utf-8"></script>
 
@@ -30,46 +29,7 @@ showNav : true // Set to false to hide navigation arrows.
  
     
 </script>
-    <script type="text/javascript">
-        // Wait for the page to load first
-        window.onload = function () {
-
-            //Get a reference to the link on the page
-            // with an id of "exportxt"
-            var a = document.getElementById("exportxt");
-
-            //Set code to run when the link is clicked
-            // by assigning a function to "onclick"
-            a.onclick = function () {
-
-
-                window.open('{{ baseurl }}cleanstart-install.sh');
-
-
-
-
-                function downloadInnerHtml(filename, elId, mimeType) {
-                    var elHtml = document.getElementById(elId).innerHTML;
-                    var link = document.createElement('a');
-                    mimeType = mimeType || 'text/plain';
-                    link.setAttribute('download', filename);
-                    link.setAttribute('href', 'data:' + mimeType + ';charset=utf-8,' + encodeURIComponent(elHtml));
-                    link.click();
-                }
-                var fileName = 'grphictools.list'; // You can use the .txt extension if you want
-                downloadInnerHtml(fileName, 'editor', 'text/plain');
-                //If you don't want the link to actually 
-                // redirect the browser to another page, then
-                // return false at the end of this block.
-                // Note that this also prevents event bubbling,
-                // which is probably what we want here, but won't 
-                // always be the case.
-                return false;
-            }
-        }
-        
-        
-    </script>
+   
     <script>$('#toggle4').click(function() {
 	$('.toggle4').slideToggle('fast');
 	return false;
@@ -93,3 +53,11 @@ showNav : true // Set to false to hide navigation arrows.
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=162670900464819";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
