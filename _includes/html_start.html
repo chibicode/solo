@@ -9,6 +9,24 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/simplegrid.css">
     <script src="{{ site.baseurl }}/js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="{{ site.baseurl }}/js/gen_list.js" type="text/javascript" charset="utf-8"></script>
+    <script src="{{ site.baseurl }}/js/sss.min.js"></script>
+<link rel="stylesheet" href="{{ site.baseurl }}/css/sss.css" type="text/css" media="all">
+
+<script>
+jQuery(function($) {
+$('.slider').sss();
+});
+    
+    $('.slider').sss({
+slideShow : true, // Set to false to prevent SSS from automatically animating.
+startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+transition : 200, // Length (in milliseconds) of the fade transition.
+speed : 3500, // Slideshow speed in milliseconds.
+showNav : true // Set to false to hide navigation arrows.
+});
+ 
+    
+</script>
     <script type="text/javascript">
         // Wait for the page to load first
         window.onload = function () {

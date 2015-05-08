@@ -2,7 +2,7 @@
 
 
     <div class="col-1-3 mobile-col-1-1">
-        <h1>Libre Design Tools &nbsp;&#8623;</h1>
+       
        <h4> Instaed of beign stuck with expensive propietery tools, use powerful Free and Open Source softwares for your design projects. <a href='#' id='slideToggle2'>Learn More</a></h4>
     </div> 
             
@@ -42,7 +42,7 @@ You are invited to contribute to and improve.
             <div class="tile {{ post.background }} {{ post.catagory }}">
 
               
-                <a href="{{ site.baseurl }}{{ post.url }}" ><h2>{{ post.title }}</h2></a>
+                <a href="{{ site.baseurl }}{{ post.url }}" ><h2><img src class="tool_icon" src="{{ site.baseurl }}/images/{{ post.icon }}">{{ post.title }}</h2></a>
                 <div class="category">{{ post.category }}{{ post.tags }}&nbsp; </div>
                 <div class="category">
                 <img class="os_icon" style="visibility:{{ post.gnu }};" src="{{ site.baseurl }}/images/gnu.svg">
@@ -51,7 +51,7 @@ You are invited to contribute to and improve.
                 </div>
 
              <br>
-            <p>{{ post.content }}</p>
+            <p>{{ post.des }}</p>
 
             </div>
 

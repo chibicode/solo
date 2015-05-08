@@ -28,8 +28,20 @@ nav {
 }
 
 .lang_chooser{
-float: left;
+float: right;
 }
+
+h1.sitetitle{
+  margin: 0;
+  font-size: 29px;
+  float: left;
+  color: #fff;
+}
+h1.sitetitle {
+  text-decoration: none;
+  
+}
+
 
 .half {
     width: 50%;
@@ -190,6 +202,7 @@ pre > code {
     padding: 0 1rem;
     margin-top: 60px;
 }
+
 /*tiles*/
 
 .tile {
@@ -225,25 +238,7 @@ a.tile_link:focus {
     
 }
 
-.red {}
 
-.blue,
-blue h2 {}
-
-.yellow {}
-
-.green {}
-
-.code_display {
-    background: #000000;
-    color: #fff;
-    font-family: monospace;
-    overflow: auto;
-    width: auto;
-    border: solid gray;
-    border-width: .1em .1em .1em .8em;
-    padding: .2em .6em;
-}
 
 .fixed {
     position: fixed;
@@ -269,7 +264,7 @@ a#exportxt:hover {
 
 /* RADIO */
 
-.regular-radio {
+/*.regular-radio {
     display: none;
 }
 
@@ -320,7 +315,7 @@ a#exportxt:hover {
 	}
 	.clear{
 		clear:both;
-	}
+	}*/
 
 
 
@@ -338,12 +333,75 @@ visibility: hidden;
     float: left;
 }
 
+
+
+/* Sinlge TOOL Page */
+
 .tool_icon{
 
     width: 50px;
     float: left;
-    -webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);
-filter: gray; filter: grayscale(100%);
-filter: url(desaturate.svg#greyscale);
 }
 
+#tool-title{
+margin: 0 auto;
+    display: block;
+     display: inline-block;
+}
+
+
+
+.sss {
+	height: 0;
+	margin: 0; 
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.ssslide {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+}
+
+.ssslide img {
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+.sssnext, .sssprev {
+	width: 25px;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background: url('../images/arr.png') no-repeat;
+}
+
+.sssprev {
+	left: 3%;
+	background-position: 0 50%;
+}
+
+.sssnext {
+	right: 3%;
+	background-position: -26px 50%;
+}
+
+.sssprev:hover, .sssnext:hover {
+	cursor: pointer;
+}
+
+
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; } .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } - See more at: http://avexdesigns.com/responsive-youtube-embed/#sthash.EnhnRqpA.dpuf
