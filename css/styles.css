@@ -476,7 +476,17 @@ background: #eee;
 
 .videolink{
 text-align: center;
+    
 }
+.videolink a{
+color: #000;
+    text-decoration: none;
+}
+.videolink a:hover{
+color: #525252;
+    text-decoration: none;
+}
+
 
 
 /*footer*/
