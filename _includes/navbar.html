@@ -1,12 +1,11 @@
 
 
-
 <nav>
     
 <div class="grid grid-pad">
-    <h1 class='sitetitle'><a href="{{ site.baseurl}}/">Libre Design Tools ↯↯↯</a></h1>
+<h1 id="libre_graphics_badge" class='sitetitle'><a href="{{ site.baseurl}}/">Libre Design Tools ↯↯↯</a></h1>
 
-<form name="jump" class="lang_chooser">
+<!--<form name="jump" class="lang_chooser">
 <select name="menu" onchange="gotoPage(this)">
 <option value="#">Language</option>
 <option value="{{ site.baseurl}}/si/">Sinhala</option>
@@ -15,6 +14,19 @@
 </select>
 
 </form>
-    
+
+<div class="post-tags">
+<form name="jump-tag" class="lang_chooser">
+<select name="menu" onchange="gotoPage(this)">
+<option value="#">Select Category</option>
+
+{% for tag in site.tags %}
+
+<option value="#{{ tag | first | slugize }}">{{ tag | first }}</option>
+
+{% endfor %}
+</select>
+</form>-->
+        
 </nav>
 </div>

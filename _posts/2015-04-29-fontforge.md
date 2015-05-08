@@ -1,102 +1,87 @@
 ---
 layout: post
 title: FontForge
+name: fontforge
 status: Active Development
 homepage: http://fontforge.github.io/
 icon: fontforge_icon.png
 des: Create and edit fonts in many formats OpenType, TrueType, AAT, PostScript, Multiple Master, CID-Keyed, SVG and various bitmap formats
-gnu: visible
-mac: visible
-win: visible
+gnu: block
+mac: block
+win: block
 tags:
     - Font Design 
 catagory: design
+about : FontForge is a full-featured font editor which supports all common font formats. Developed primarily by George Williams until 2012, FontForge is free software and is distributed under a mix of the GNU General Public License Version 3 and the 3-clause BSD license. It is localized into 12 languages. <a href="http://en.wikipedia.org/wiki/FontForge">Read More</a>
+videolink:
+moreinfo: FontForge is a full-featured
+gnulink: http://fontforge.github.io/en-US/downloads/gnulinux/
+maclink: http://fontforge.github.io/en-US/downloads/mac/
+winlink: http://fontforge.github.io/en-US/downloads/windows/
+gnudesc: 
+macdesc:
+windesc:
+tutoriallink1: http://designwithfontforge.com/
+tutoriallable1: Design With FontForge
+tutoriallink2: http://fontforge.github.io/en-US/downloads/gnulinux/
+tutoriallable2: 
+tutoriallink3: 
+tutoriallable3: 
+tutoriallink4: 
+tutoriallable4: 
+forumlink1: http://designwithfontforge.com/
+forumlable1: Design With FontForge
+forumlink2: 
+forumlable2: 
+forumlink3: 
+forumlable4: 
+forumlink4: 
+forumlable4:
+background: EBEBEB
+
 ---
 
 
-<!--Add Images Here-->
-<div class="grid grid-pad">
-<div class="col-1-1">
-<div class="slider">
-<img src="{{ site.baseurl }}/images/fontforge/image1.png" />
-<img src="{{ site.baseurl }}/images/fontforge/image4.png" />
-<img src="{{ site.baseurl }}/images/fontforge/image2.png" />
-<div><img src="{{ site.baseurl }}/images/fontforge/image3.png" /><span class="caption"></span></div>
-</div>
-</div>
-</div>
 
 
 <!--Top Features-->
+<div id="feature-box" >
+
 <div class="grid grid-pad">
-    <div class="col-1-4 mobile-col-1-1">
+    <div class="col-1-3 mobile-col-1-1">
     <!--Add Feature Here-->
-    <h2 class="feature">Fearture 1</h2>
-    <p class="feature_desc">Fearture 1</p>
+    <h2 class="feature"><i class="fa fa-download fa-2x"></i><br />Formats</h2>
+    <p class="feature_desc">Export into to Many Formats</p>
     </div>
-    <div class="col-1-4 mobile-col-1-1">
+    <div class="col-1-3 mobile-col-1-1">
     <!--Add Feature Here-->
-    <h2 class="feature">Fearture 1</h2>
-    <p class="feature_desc">Fearture 1</p>
+    <h2 class="feature"><i class="fa fa-superscript fa-2x"></i><br />OpenType</h2>
+    <p class="feature_desc">Complete support for OpenType</p>
     </div>
-    <div class="col-1-4 mobile-col-1-1">
+    <div class="col-1-3 mobile-col-1-1">
     <!--Add Feature Here-->
-    <h2 class="feature">Fearture 1</h2>
-    <p class="feature_desc">Fearture 1</p>
+    <h2 class="feature"><i class="fa fa-pencil fa-2x"></i><br />Sketch and Convert</h2>
+    <p class="feature_desc">Easily convert your handrwan sketches into a font.</p>
     </div>
-    <div class="col-1-4 mobile-col-1-1">
+    <div class="col-1-3 mobile-col-1-1">
     <!--Add Feature Here-->
-    <h2 class="feature">Fearture 1</h2>
-    <p class="feature_desc">Fearture 1</p>
+    <h2 class="feature"><i class="fa fa-cogs fa-2x"></i><br />Python Scripting</h2>
+    <p class="feature_desc">Get repetitive tasks done quickly, FontForge has excellent scripting support with both its own scripting language and Python.</p>
     </div>
-    <div class="col-1-4 mobile-col-1-1">
+
+    <div class="col-1-3 mobile-col-1-1">
     <!--Add Feature Here-->
-    <h2 class="feature">Fearture 1</h2>
-    <p class="feature_desc">Fearture 1</p>
+    <h2 class="feature"><i class="fa fa-user-plus fa-2x"></i><br />Collaboration</h2>
+    <p class="feature_desc">Real time collaboration over local network</p>
     </div>
-    <div class="col-1-4 mobile-col-1-1">
+    <div class="col-1-3 mobile-col-1-1">
     <!--Add Feature Here-->
-    <h2 class="feature">Fearture 1</h2>
-    <p class="feature_desc">Fearture 1</p>
+    <h2 class="feature"><i class="fa fa-undo fa-2x"></i><br />Keep Revisions</h2>
+    <p class="feature_desc">Easy revisions system let you to revert back to different versions. </p>
     </div>
-    <div class="col-1-4 mobile-col-1-1">
-    <!--Add Feature Here-->
-    <h2 class="feature">Fearture 1</h2>
-    <p class="feature_desc">Fearture 1</p>
     </div>
-    <div class="col-1-4 mobile-col-1-1">
-    <!--Add Feature Here-->
-    <h2 class="feature">Fearture 1</h2>
-    <p class="feature_desc">Fearture 1</p>
-    </div>
+
 </div>
 
 
-<!--Getting Started-->
-<div class="grid grid-pad">
-    <div class="col-1-3 mobile-col-1-1">
-    <h2>Intro Video</h2>
-        <div class="video-container">
-            <!--Add Intro Video Here-->
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/_EhwHL1aloI?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
-    <div class="col-1-3 mobile-col-1-1">
-    <h2>Tutorials and Reviews</h2>
-            <!--Add Tutorial Links here-->
-        <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        </ul>
-    </div>
-    <div class="col-1-3 mobile-col-1-1">
-    <h2>User Forums</h2>
-        <!--Add User Forums Here-->
-        <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        </ul>
-    </div>
-</div>
+
