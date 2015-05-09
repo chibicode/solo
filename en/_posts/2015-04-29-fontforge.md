@@ -1,6 +1,7 @@
 ---
 layout: post
 title: FontForge
+lang: en
 name: fontforge
 status: Active Development
 homepage: http://fontforge.github.io/

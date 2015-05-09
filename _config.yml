@@ -1,6 +1,6 @@
 safe: false
 lsi: false
-permalink: "/:title"
+permalink: "/:categories/:title"
 baseurl:               /libre-design-tools
 
 # About/contact
