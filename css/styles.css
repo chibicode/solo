@@ -208,7 +208,7 @@ pre > code {
     text-decoration: none;
     color: #000000;
     transition: all .5s ease;
-    
+    height: 260px;
 }
 
 .tile:hover {
