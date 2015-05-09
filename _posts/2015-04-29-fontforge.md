@@ -6,9 +6,9 @@ status: Active Development
 homepage: http://fontforge.github.io/
 icon: fontforge_icon.png
 des: Create and edit fonts in many formats OpenType, TrueType, AAT, PostScript, Multiple Master, CID-Keyed, SVG and various bitmap formats
-gnu: block
-mac: block
-win: block
+gnu: inline
+mac: inline
+win: inline
 tags:
     - Font Design 
 catagory: design
@@ -38,6 +38,7 @@ forumlable4:
 forumlink4: 
 forumlable4:
 background: EBEBEB
+
 
 ---
 

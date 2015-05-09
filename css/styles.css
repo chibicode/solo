@@ -20,12 +20,6 @@ body {
     z-index: 1000;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
-}
 
 .lang_chooser{
 float: right;
@@ -213,6 +207,7 @@ pre > code {
     padding: 10px;
     text-decoration: none;
     color: #000000;
+    transition: all .5s ease;
     
 }
 
@@ -258,22 +253,6 @@ a.tile_link:focus {
     position: fixed;
 }
 
-/* DOWNLOAD BUTTON */
-
-a#exportxt {
-  color: white;
-  text-decoration: none;
-  background: #000;
-  padding: 20px;
-  display: block;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-
-a#exportxt:hover {
-      background: #25dd64;
-}
 
 
 /* RADIO */
@@ -337,8 +316,9 @@ nav{
   position: fixed;
   top: 0;
   right: 0;
-    background: red;
+    background:  #fd3e3e;
     width: 100%;
+    z-index: 1;
 }
 
 .os_icon{
@@ -494,4 +474,31 @@ color: #525252;
   background: #eee;
   margin-top: 130px;
   padding-bottom: 20px;
+}
+
+
+/* DOWNLOAD BUTTON */
+
+
+
+a.toggler {
+    background: #a804ff;
+    cursor: pointer;
+    padding: 0 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .5s ease;
+     color: #000;
+  text-decoration: none;
+  background: #000;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+    font-size: 40px;
+}
+
+a.toggler.off {
+    background: #fd3e3e!important;
+
 }

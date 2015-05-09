@@ -1,0 +1,90 @@
+<div class="grid grid-pad">
+
+
+    <div class="col-1-3 mobile-col-1-1">
+       
+       <h4> Instaed of beign stuck with expensive propietery tools, use powerful Free and Open Source softwares, for your design projects. Don't forget to tell the developers what features you need. <a href='#' id='slideToggle2'>Learn More</a></h4>
+    </div> 
+            
+<br />
+
+<div style="display:none;" class="slideTogglebox2">
+<div class="col-1-2 mobile-col-1-1">
+        This is just a collection of links to libre design software and resources. I built this page to keep track of my tools.
+
+You are invited to contribute to and improve.
+
+
+</div>
+              
+	<div class="col-1-2 mobile-col-1-1">
+        <li>Free To Copy and Distribute</li>
+        <li></li>
+	</div>
+	</div>
+  
+  
+            
+            
+    </div>
+
+
+
+
+<div class="grid grid-pad">
+
+    {% for tag in site.tags %} {% assign t = tag | first %} {% assign posts = tag | last %} {% for post in posts %} {% if post.tags contains t %}
+    <div class="post">
+        <div class="col-1-3">
+
+            
+            <a class="tile_link" href="{{ site.baseurl }}{{ post.url }}" >
+            <div class="tile">
+                <h2><img src class="tool_icon" src="{{ site.baseurl }}/images/{{ post.icon }}">{{ post.title }}</h2>
+                <div class="category">&nbsp;{{ post.category }}{{ post.tags }}  <span class="os_icon" style="display:{{ post.gnu }};"><i class="fa fa-linux"></i></span>
+                    <span class="os_icon" style="display:{{ post.mac }};"> <i class="fa fa-apple"></i></span>
+                    <span class="os_icon" style="display:{{ post.win }};"><i class="fa fa-windows"></i></span></div> 
+                
+
+             <br>
+            <p>{{ post.des }}</p>
+               
+
+            </div>
+            </a>
+
+        </div>
+
+        {% endif %}</div> {% endfor %} {% endfor %}
+
+</div>
+
+
+<!--
+<div class="grid grid-pad">
+    <div class="col-1-3 mobile-col-1-1 push-1-3">
+        <a id="exportxt" href="#">MoreS&nbsp;&#8623;</a>
+        <div style="display:none;" id="editor" class="code_display"></div>
+    </div>
+</div>-->
+
+    
+
+
+
+ 
+<script type="text/javascript">
+ 
+
+$("#slideToggle").click(function () {
+   $('.slideTogglebox').slideToggle();
+});
+    $("#slideToggle2").click(function () {
+   $('.slideTogglebox2').slideToggle();
+});
+ 
+
+</script>
+ 
+    
+

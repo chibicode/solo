@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700|Karla:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/simplegrid.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="{{ site.baseurl }}/js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="{{ site.baseurl }}/js/sss.min.js"></script>
+    <script src="{{ site.baseurl }}/js/jquery.lightbox_me.js" type="text/javascript" charset="utf-8"></script>
+
+<link rel="stylesheet" href="{{ site.baseurl }}/css/sss.css" type="text/css" media="all">
+
+<script>
+jQuery(function($) {
+$('.slider').sss();
+});
+    
+    $('.slider').sss({
+slideShow : true, // Set to false to prevent SSS from automatically animating.
+startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+transition : 200, // Length (in milliseconds) of the fade transition.
+speed : 3500, // Slideshow speed in milliseconds.
+showNav : true // Set to false to hide navigation arrows.
+});
+ 
+    
+</script>
+   
+    <script>$('#toggle4').click(function() {
+	$('.toggle4').slideToggle('fast');
+	return false;
+});
+</script>
+    
+  
+    
+    <script>
+        localStorage.clear();
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            // Grab the text from the JS constant file, and show it
+            prepareAndShowFontLayout();
+
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=162670900464819";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>

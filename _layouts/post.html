@@ -113,29 +113,25 @@
     <div class="col-1-3 mobile-col-1-1 push-1-3">
 
 
-<div class="uk-width-1-1">
-    <div class="uk-panel uk-panel-box highlights5 wow bounceIn animated" style="visibility: visible;">
-        <a id="exportxt" target="balnk" class="d-box-effect7-menu">
-        MoreS&nbsp;&#8623;</a>
-     </div>
-</div>
-        
-
-        
-     <div class="descricao1" style="display: none; width:100%;">
-        11111Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce malesuada nisl tellus, eget porttitor augue aliquam non. Morbi tempor, leo vel aliquet lacinia, ante est egestas dolor, vitae maximus mi mauris et quam. Nullam vehicula congue magna, quis posuere arcu vestibulum at. Mauris et mi rhoncus, vestibulum quam vel, mattis diam. Sed ut elit egestas, aliquam libero in, viverra erat. Sed non augue molestie, lacinia nibh venenatis, euismod nibh. Nulla scelerisque sodales felis. Pellentesque pharetra augue eu sapien luctus, quis pharetra eros faucibus. Morbi vitae eleifend massa.
-        Cras blandit erat mi, eu laoreet elit euismod eget. Morbi efficitur est libero, ut tempus leo porttitor ut. Donec eget ipsum purus. Aenean congue risus eu neque tincidunt porttitor. Nullam non commodo ipsum, facilisis porta enim. Etiam varius elementum ante, in suscipit leo iaculis vel. Vivamus libero dolor, tincidunt at fringilla nec, molestie vel metus. Fusce euismod erat at sapien molestie, sed venenatis est lobortis. 
+    <div style="margin-top: 100px; visibility: visible;">
+        <a id="exportxt"  style="margin-top: 100px;background-color:#{{ page.background }}" target="balnk" class="toggler toggle-btn">
+        INSTALL&nbsp;&#8623;</a>
+        <p>No Cracking, No Trial Periods, Full features with absolute freedom :) For <span class="" style="display:{{ page.gnu }};"><i class="fa fa-linux"></i></span>
+                    <span class="" style="display:{{ page.mac }};"> <i class="fa fa-apple"></i></span>
+                    <span class="" style="display:{{ page.win }};"><i class="fa fa-windows"></i></span></p>
      </div>
 
+
+        
+    
 
 
     </div>
-</div>
+
 
     
 <!--Installation-->
-<div id="downloads" class="slideTogglebox grid grid-pad">
-    <h1 class="post-sub-title">↯↯↯Downloads↯↯↯</h1>
+<div id="downloads" class="descricao1" style="display: none; width:100%;">
     <div class="col-1-3 mobile-col-1-1">
     <h2><i class="fa fa-linux"></i>&nbsp;GNU/Linux</h2>
 <a href='{{ page.gnulink }}'>Offical Download</a> 
@@ -157,6 +153,7 @@
         <p>{{ page.windesc }}</p>
     </div>
 </div>
+    </div>
     
 
 <div class="grid grid-pad">
@@ -195,11 +192,12 @@
 <script type="text/javascript">
  
 
-$('a.d-box-effect7-menu').click(function(){
-   $('.descricao'+($('.d-box-effect7-menu').index($(this))+1)).slideToggle("slow").siblings('div').hide('slow');
+$('a.toggle-btn').click(function(){
+   $('.descricao'+($('.toggle-btn').index($(this))+1)).slideToggle("slow").siblings('div');
+        $(this).toggleClass('off');
 });
-
 </script>
+
 </div>
 </div>
 </div>
