@@ -313,12 +313,13 @@ a.tile_link:focus {
 
 
 nav{
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
     background:  #fd3e3e;
     width: 100%;
     z-index: 1;
+ 
 }
 
 .os_icon{

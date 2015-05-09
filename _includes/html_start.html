@@ -2,7 +2,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:700|Karla:400,700' rel='stylesheet' type='text/css'>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Pathum Egodawatta www.mooniak.com" />
+    <title>{{ page.title }} - Libre Design Tools ↯↯↯</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A directory of Free and Open Source design tools.">
+    <meta name="author" content="http://mooniak.com/">
+    <meta property="fb:admins" content="1492908859"/>
+    <meta property="og:image" content="{{ site.baseurl }}/images/{{ page.icon }}"/>
+    <meta property="og:title" content="{{ page.title }} - Libre Design Tools ↯↯↯" />
+    <meta property="og:description" content="A directory of Free and Open Source design tools." />
+    <meta property="og:site_name" content="{{ page.title }}" />
+    <meta property="og:type" content="website" />
+    <meta itemprop="name" content="{{ page.title }} - Libre Design Tools ↯↯↯">
+    <meta itemprop="description" content="A directory of Free and Open Source design tools.">
+    <meta itemprop="image" content="{{ site.baseurl }}/images/{{ page.icon }}">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/images/{{ page.icon }}">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
@@ -11,33 +27,26 @@
     <script src="{{ site.baseurl }}/js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="{{ site.baseurl }}/js/sss.min.js"></script>
     <script src="{{ site.baseurl }}/js/jquery.lightbox_me.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/sss.css" type="text/css" media="all">
+    <script>
+        jQuery(function ($) {
+            $('.slider').sss();
+        });
 
-<link rel="stylesheet" href="{{ site.baseurl }}/css/sss.css" type="text/css" media="all">
-
-<script>
-jQuery(function($) {
-$('.slider').sss();
-});
-    
-    $('.slider').sss({
-slideShow : true, // Set to false to prevent SSS from automatically animating.
-startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
-transition : 200, // Length (in milliseconds) of the fade transition.
-speed : 3500, // Slideshow speed in milliseconds.
-showNav : true // Set to false to hide navigation arrows.
-});
- 
-    
-</script>
-   
-    <script>$('#toggle4').click(function() {
-	$('.toggle4').slideToggle('fast');
-	return false;
-});
-</script>
-    
-  
-    
+        $('.slider').sss({
+            slideShow: true, // Set to false to prevent SSS from automatically animating.
+            startOn: 0, // Slide to display first. Uses array notation (0 = first slide).
+            transition: 200, // Length (in milliseconds) of the fade transition.
+            speed: 3500, // Slideshow speed in milliseconds.
+            showNav: true // Set to false to hide navigation arrows.
+        });
+    </script>
+    <script>
+        $('#toggle4').click(function () {
+            $('.toggle4').slideToggle('fast');
+            return false;
+        });
+    </script>
     <script>
         localStorage.clear();
     </script>
