@@ -2,6 +2,8 @@
 title: Solo, a Jekyll Theme
 tag_text: Solo
 description: Solo is a Jekyll theme that supports single-page websites only, but supports them well. Yes, it’s responsive.
+baseurl: "/solo" # the subpath of your site, e.g. /blog
+url: "http://alexcarpenter.me" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
