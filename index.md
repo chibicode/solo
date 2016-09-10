@@ -54,7 +54,7 @@ Instead of downloading, you can [fork Solo](https://github.com/chibicode/solo/fo
 
 Shu Uesugi ([Twitter](http://twitter.com/chibicode)/[GitHub](http://github.com/chibicode)/[G+](https://plus.google.com/110325199858284431541?rel=author)).
 
-![Shu Uesugi](https://s.gravatar.com/avatar/b8e08ddbd4c8f18eb41e54a08e9bf9ec?s=80)
+![Shu Uesugi](https://gravatar.com/avatar/b8e08ddbd4c8f18eb41e54a08e9bf9ec?s=80)
 
 ### License
 
