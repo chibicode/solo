@@ -54,7 +54,7 @@ Instead of downloading, you can [fork Solo](https://github.com/chibicode/solo/fo
 
 Shu Uesugi ([Twitter](http://twitter.com/chibicode)/[GitHub](http://github.com/chibicode)/[G+](https://plus.google.com/110325199858284431541?rel=author)).
 
-![Shu Uesugi](http://ahnli.ch/img/Dragonite.gif)
+![Shu Uesugi](http://ahnli.ch/img/203.gif)
 
 ### License
 
