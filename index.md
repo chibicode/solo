@@ -2,6 +2,12 @@
 layout: default
 ---
 
+## Deprecated: Use my new theme "Duo" instead:
+
+[https://chibicode.github.io/duo/](https://chibicode.github.io/duo/)
+
+---
+
 [Solo](http://chibicode.github.io/solo) is a Jekyll theme that supports **single-page websites** only, but supports them well. Yes, it's responsive.
 
 <iframe src="https://ghbtns.com/github-btn.html?user=chibicode&amp;repo=solo&amp;type=watch&amp;count=true&amp;size=large"
